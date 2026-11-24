@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ocean Ledger — Annual CO₂ Uptake by the Ocean, by Basin</title>
+<meta name="description" content="Annual ocean CO2 uptake by basin, 1959–2024, explained by the four ocean carbon pumps (solubility, biological, microbial, carbonate counter-pump) and observed through the GOOS Essential Ocean Variables. Source: Global Carbon Budget 2025.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="kicker">Ocean Ledger · A science ledger, not a live sensor</p>
+    <h1>Annual CO₂ uptake by the ocean, by basin</h1>
+    <p class="lede">How much carbon dioxide the ocean takes up each year, where it goes in, and the four pumps that drive it — solubility, biological, microbial and the carbonate counter-pump — observed through the GOOS Essential Ocean Variables.</p>
+    <p class="caption">Sources: Global Carbon Budget 2025 (Global Carbon Project) for the annual global sink; Fay et al. 2024 for the basin breakdown; Martín Míguez, Heslop et al. 2026 for the variables; Global ONCE Science Plan for the pumps. Latest year in this build: <strong id="latestYear">2024</strong>. See Methods &amp; sources at the bottom of the page.</p>
+    <nav class="toc" aria-label="Contents">
+      <ul>
+        <li><a href="#live-h">The active ledger</a></li>
+        <li><a href="#trend-h">Historic trend — the world ocean sink</a></li>
+        <li><a href="#pumps-h">The four pumps — the science behind the numbers</a></li>
+        <li><a href="#table-h">Every basin</a></li>
+        <li><a href="#compare-h">Compare basins</a></li>
+        <li><a href="#detail-h">Basin detail</a></li>
+        <li><a href="#accum-h">Accumulated carbon</a></li>
+        <li><a href="#eov-h">The variables that watch it — GOOS Essential Ocean Variables</a></li>
+        <li><a href="#methods-h">Methods, model assumptions &amp; sources</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- Live ledger -->
+  <section aria-labelledby="live-h">
+    <h2 id="live-h">The active ledger</h2>
+    <p class="caption">Live counter — an estimate, not a measurement. It spreads the latest annual ocean rate evenly across the year. Source: Global Carbon Budget 2025, ocean sink 2024: 3.39 GtC/yr (12.42 GtCO₂/yr).</p>
+    <div class="cards">
+      <div class="card big">
+        <div class="label">Taken up since you opened this page</div>
+        <div class="num" id="sinceOpened">0 t</div>
+        <div class="sub" id="rateLine">— tonnes of CO₂ per second</div>
+      </div>
+      <div class="card big">
+        <div class="label">Cumulative ocean uptake since 1959 — live estimate</div>
+        <div class="num" id="cumulativeLive">—</div>
+        <div class="sub" id="cumulativeSub">146.0 GtC at the end of 2024, plus the 2025 preliminary estimate and the 2026 estimate to date</div>
+      </div>
+      <div class="card">
+        <div class="label">World ocean sink, 2024</div>
+        <div class="num" id="world2024">3.39 GtC</div>
+        <div class="sub" id="worldYoY">+3.5% vs 2023 · 12.42 GtCO₂</div>
+      </div>
+      <div class="card">
+        <div class="label">Share of 2024 human emissions</div>
+        <div class="num">28.8%</div>
+        <div class="sub">3.39 GtC taken up of 11.79 GtC emitted (fossil + land-use change)</div>
+      </div>
+    </div>
+    <p class="note"><strong>2025, preliminary:</strong> the low-latency global carbon budget puts 2025 ocean uptake at 3.11 ± 0.36 GtC/yr (Ciais et al. 2026) — similar to 2024, not yet part of the Global Carbon Budget series. The chart and table below use the published GCB series through 2024.</p>
+  </section>
+
+  <!-- World trend -->
+  <section aria-labelledby="trend-h">
+    <h2 id="trend-h">Historic trend — the world ocean sink</h2>
+    <p class="caption">Annual ocean CO₂ uptake, world total, 1959–2024 (GtC per year). The sink has roughly tripled since 1959, tracking rising atmospheric CO₂ — but it varies year to year with El Niño, volcanic cooling and ocean circulation. Source: Global Carbon Budget 2025.</p>
+    <div class="chart-box"><svg id="worldChart" viewBox="0 0 900 320" role="img" aria-label="World annual ocean CO2 uptake chart, 1959 to 2024"></svg></div>
+    <div class="stats" id="worldStats"></div>
+  </section>
+
+  <!-- Four pumps -->
+  <section aria-labelledby="pumps-h">
+    <h2 id="pumps-h">The four pumps — the science behind the numbers</h2>
+    <p class="caption">Every tonne in the table below got into the ocean through one of these four pumps, and they work together — the Global ONCE framework calls their coupling BCMS. Source: Global Ocean Negative Carbon Emissions Program (Global ONCE) Science Plan, Chief Scientist Nianzhi Jiao. Gt = 1 Pg.</p>
+    <div class="pump-grid" id="pumpGrid"></div>
+    <p class="note"><strong>What the numbers can and cannot say:</strong> no published source splits any basin's uptake into pump shares, so this page does not invent one. Each basin's drivers are attributed qualitatively — which pumps dominate there, and why — with the source cited. The one hard number on the counter-pump is its per-mole factor: about 0.6 mol of CO₂ released per mole of CaCO₃ precipitated (Frankignoulle et al. 1994), a ratio that rises as seawater loses buffer capacity.</p>
+    <h3>Warming pushes back on the solubility pump</h3>
+    <p>Surface-ocean pCO₂ rises about 4.23% for every 1 °C of warming (Takahashi et al. 1993), which shrinks the air–sea gradient that drives uptake. In 2023, the hottest year on record for sea-surface temperature, the non-polar ocean absorbed about 10% less carbon than expected — a shortfall of roughly 0.16 PgC — concentrated in the extratropics, above all the North Atlantic (Müller et al. 2025, Nature Climate Change). The same warming did not stop the sink growing over decades, because rising atmospheric CO₂ keeps steepening the gradient; the two effects pull in opposite directions, and the balance is what the annual series measures.</p>
+  </section>
+
+  <!-- Basin table -->
+  <section aria-labelledby="table-h">
+    <h2 id="table-h">Every basin</h2>
+    <p class="caption">Climatological mean net air–sea CO₂ flux by basin, from Fay et al. 2024 (SOCATv2022, 1980–2021; fluxes computed with 2010 inputs). These are net fluxes — they include the natural outgassing of river-borne carbon — not the anthropogenic sink, and they are a multi-decade mean, not an annual series. Uptake is positive: a negative number is a net source to the atmosphere. Click a row for that basin's detail.</p>
+    <div class="controls">
+      <label>Sort by
+        <select id="sort">
+          <option value="uptake">Uptake (largest first)</option>
+          <option value="name">Basin name (A–Z)</option>
+          <option value="density">Flux per area (largest first)</option>
+          <option value="area">Area (largest first)</option>
+        </select>
+      </label>
+      <button id="csvBasins" type="button">Download basin table (CSV)</button>
+      <button id="csvGlobal" type="button">Download global series (CSV)</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>Basin</th><th>Uptake (PgC/yr)</th><th>Share</th><th>Area (M km²)</th><th>Flux per area (g C/m²/yr)</th><th>Dominant pumps</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <p class="caption"><strong>How to read the columns.</strong> Uptake: how much CO₂ the basin takes up in a year, in petagrams of carbon (1 PgC = 1 GtC = 3.664 GtCO₂). Share: the basin's slice of the eight-basin total printed here. Area: the ocean surface the Fay climatology covers in that basin — 322 million km² across all eight, of about 361 million km² of world ocean; coasts, the Arctic and marginal seas are not covered. Flux per area: uptake divided by area — the fair way to compare a giant basin with a small intense one. Dominant pumps: which of the four pumps do most of the work there (see the pump section above).</p>
+    <p class="note"><strong>Reconciliation:</strong> the eight basin values sum to 1.88 PgC/yr of uptake, against the paper's global open-ocean net flux of 1.79 ± 0.7 PgC/yr. The 0.09 gap is rounding in the printed table (values given to 0.01) and coverage differences; it sits well inside the stated uncertainty. Basin shares are shares of the printed-basin total, so they sum to 100%.</p>
+  </section>
+
+  <!-- Compare -->
+  <section aria-labelledby="compare-h">
+    <h2 id="compare-h">Compare basins</h2>
+    <p class="caption">Pick up to three basins to set side by side — same figures, same drivers, same observing variables. Source: Fay et al. 2024; Global ONCE Science Plan; Martín Míguez, Heslop et al. 2026.</p>
+    <div class="controls">
+      <label>Basin 1 <select id="cmp1"></select></label>
+      <label>Basin 2 <select id="cmp2"></select></label>
+      <label>Basin 3 <select id="cmp3"></select></label>
+    </div>
+    <div class="compare-grid" id="compareGrid"></div>
+  </section>
+
+  <!-- Basin detail -->
+  <section aria-labelledby="detail-h">
+    <h2 id="detail-h">Basin detail</h2>
+    <p class="caption">Pick a basin in the table above to see its biomes, why it takes up what it does, the pumps behind it, and the GOOS variables that observe it. Source: Fay et al. 2024, Table 1; Global ONCE Science Plan; Martín Míguez, Heslop et al. 2026.</p>
+    <div id="detail"><p class="note">No basin selected yet — click any row in the table, or use the button below for the Southern Ocean.</p><button id="pickSouthern" type="button">Show Southern Ocean</button></div>
+  </section>
+
+  <!-- Accumulated carbon -->
+  <section aria-labelledby="accum-h">
+    <h2 id="accum-h">Accumulated carbon</h2>
+    <p class="caption">Cumulative totals are sums of the annual GCB series. Sources: Global Carbon Budget 2025; conversion 1 GtC = 3.664 GtCO₂.</p>
+    <div class="cards">
+      <div class="card"><div class="label">Cumulative ocean uptake, 1959–2024</div><div class="num">146 GtC</div><div class="sub">535 GtCO₂. 27.2% of the 537 GtC humans emitted over the same period.</div></div>
+      <div class="card"><div class="label">Cumulative human emissions, 1959–2024</div><div class="num">537 GtC</div><div class="sub">Fossil fuels + land-use change, 1959–2024 (Global Carbon Budget 2025).</div></div>
+      <div class="card"><div class="label">Where the rest went</div><div class="num">≈ 43% air</div><div class="sub">43.1% stayed in the atmosphere and 22.0% went into land ecosystems over 1959–2024; the ocean took 27.2%. The remaining ~8% is the budget imbalance — emissions the three sinks do not account for.</div></div>
+      <div class="card"><div class="label">Observed CO₂ in the air</div><div class="num">≈ 426 ppm</div><div class="sub">Atmospheric CO₂ averaged 422.8 ppm in 2024 and about 425.6 ppm in 2025, up from ~278 ppm pre-industrial (Global Carbon Budget 2025).</div></div>
+    </div>
+    <p class="note"><strong>Net flux vs the anthropogenic sink — read this before comparing the two halves of the page.</strong> The basin table is a <em>net</em> air–sea flux (−1.79 PgC/yr globally): it counts everything crossing the surface, including the natural outgassing of carbon that rivers carry to the sea (about 0.65 GtC/yr). The annual global series is the <em>anthropogenic</em> sink (3.39 GtC/yr in 2024): the extra uptake caused by rising atmospheric CO₂, after the river outgassing is added back. The two are consistent once that adjustment is made — the GCB applies exactly it — and the basin table is centred near 2010, when the anthropogenic sink was about 2.5 GtC/yr, not today's 3.4.</p>
+  </section>
+
+  <!-- EOVs -->
+  <section aria-labelledby="eov-h">
+    <h2 id="eov-h">The variables that watch it — GOOS Essential Ocean Variables</h2>
+    <p class="caption">The ocean sink is not measured by one instrument. It is constrained by this set of 36 Essential Ocean Variables (EOVs) — the minimum set needed to assess ocean state and change, coordinated by the Global Ocean Observing System (GOOS). Source: Martín Míguez, Heslop et al. 2026, Frontiers in Marine Science 13:1737002 (CC BY 4.0). ECV overlap verified against the GCOS Essential Climate Variables list and the paper's section 3.2.1.</p>
+    <div class="table-wrap">
+      <table class="eov">
+        <thead><tr><th>Variable</th><th>GOOS category</th><th>Pilot</th><th>Also an Essential Climate Variable (ECV)?</th></tr></thead>
+        <tbody id="eovBody"></tbody>
+      </table>
+    </div>
+    <p class="caption"><strong>How to read the ECV column.</strong> 19 of the GCOS Essential Climate Variables are ocean-focused. Eleven are physics EOVs and five are biogeochemistry EOVs; ocean colour is an ECV in its own right; and two biological ECVs are compounds of several EOVs — the Marine Habitats ECV is mangroves + seagrass + macroalgal canopy + coral, and the Plankton ECV is phytoplankton + zooplankton. <strong>Note on ocean colour:</strong> the poster colours it with the physical set, but the paper classes it as cross-disciplinary; the paper's classification is used here. Pilot EOVs (turbulent diapycnal fluxes, microbes, benthic invertebrates) are still being established as sustained observations.</p>
+    <h3>Which variables constrain the uptake?</h3>
+    <p>The sink is pinned down first by <strong>inorganic carbon</strong> (whose sub-variable is surface-ocean pCO₂ — the direct measure of the air–sea gradient), <strong>sea surface temperature</strong> and <strong>sea surface salinity</strong> (which set solubility and stratification), <strong>sea state</strong> (wind and waves drive gas transfer), <strong>ocean colour</strong> and <strong>phytoplankton / zooplankton</strong> (the biological pump at work), <strong>oxygen</strong> and <strong>nutrients</strong> (what biology consumes and leaves behind), <strong>stable carbon isotopes</strong> (which separate natural from human carbon), and <strong>dissolved organic carbon</strong> and <strong>particulate matter</strong> (what the microbial and biological pumps move). Each basin's detail panel lists the EOVs that watch that basin. Every EOV named on this page carries its GOOS category and the Martín Míguez et al. 2026 citation.</p>
+  </section>
+
+  <!-- Methods -->
+  <section aria-labelledby="methods-h">
+    <h2 id="methods-h">Methods, model assumptions &amp; sources</h2>
+    <div class="methods">
+      <h3>What is counted</h3>
+      <p>The headline global figure is the Global Carbon Budget ocean sink (SOCEAN): the net uptake of CO₂ by the ocean caused by rising atmospheric CO₂, in GtC per year. It is the average of 10 global ocean biogeochemistry models and 9 surface-ocean fCO₂ data products, with an uncertainty of ±0.4 GtC/yr. The basin figures are the Fay et al. 2024 climatological mean net air–sea fluxes by open-ocean biome, aggregated to eight basins.</p>
+      <h3>What is not in the headline figure</h3>
+      <p>The basin table does not include coastal oceans (within 100 km of land), the Arctic Ocean, or marginal seas — the Fay climatology excludes them, which is why its covered area (322 M km²) is smaller than the world ocean (~361 M km²). The global series does cover the whole ocean. Land-use change emissions are not part of the sink; they are shown only as the denominator of the "share of emissions" figures.</p>
+      <h3>Model &amp; estimate assumptions</h3>
+      <ul>
+        <li><strong>Live counter:</strong> the 2024 ocean rate (12.42 GtCO₂/year) is spread evenly across the year — 394 tonnes of CO₂ per second — and applied to 2026 until a newer annual total is published. It is an accounting spread, not a real-time measurement; real uptake varies by season, weather and El Niño.</li>
+        <li><strong>Cumulative live total:</strong> cumulative ocean uptake at the end of 2024 (146.0 GtC) plus the preliminary 2025 estimate (3.11 GtC) plus the 2026 estimate from 1 January to now, at the same even rate.</li>
+        <li><strong>Basin fluxes:</strong> Fay et al. fluxes are computed from SOCATv2022 observations for 1980–2021 with 2010 inputs (atmospheric CO₂, winds); they represent a multi-decade mean centred near 2010, not any single year. Per-area fluxes are the printed flux divided by the printed area. Basin shares are shares of the eight printed basin values, so they sum to 100%.</li>
+        <li><strong>Pump attribution:</strong> qualitative only. No published source splits a basin's uptake into pump shares; the page attributes dominant pumps per basin from the cited driver descriptions and says so where a split is not available.</li>
+        <li><strong>Rounding:</strong> figures are shown to two decimals (GtC) or one decimal (PgC) as shown; underlying values are in data.json.</li>
+      </ul>
+      <h3>Sources</h3>
+      <ul>
+        <li>Global Carbon Project, Global Carbon Budget 2025 (Friedlingstein et al. 2025, Earth Syst. Sci. Data 18, 3211–3302) — <a href="https://doi.org/10.18160/GCP-2025">doi.org/10.18160/GCP-2025</a>; spreadsheet via the ICOS Carbon Portal — <a href="https://www.icos-cp.eu/GCP/2025">icos-cp.eu/GCP/2025</a></li>
+        <li>Fay et al. 2024, "Updated climatological mean ΔfCO₂ and net sea–air CO₂ flux over the global open ocean regions", Earth Syst. Sci. Data 16, 2123–2139 — <a href="https://doi.org/10.5194/essd-16-2123-2024">doi.org/10.5194/essd-16-2123-2024</a> (Table 1)</li>
+        <li>Martín Míguez, Heslop et al. 2026, "GOOS Essential Ocean Variables: the backbone of a sustained and evolving global ocean observing system", Frontiers in Marine Science 13:1737002 — <a href="https://doi.org/10.3389/fmars.2026.1737002">doi.org/10.3389/fmars.2026.1737002</a> (CC BY 4.0); ECV overlap checked against the GCOS list — <a href="https://gcos.wmo.int/en/essential-climate-variables">gcos.wmo.int/en/essential-climate-variables</a></li>
+        <li>Global Ocean Negative Carbon Emissions Program (Global ONCE) Science Plan, Chief Scientist Nianzhi Jiao — four pumps (BCP, CCP, MCP, SCP) and their synergistic coupling (BCMS)</li>
+        <li>Ciais et al. 2026, "Low latency global carbon budget reveals strong land sink recovery in 2025" — <a href="https://arxiv.org/abs/2609.34226">arxiv.org/abs/2609.34226</a> (2025 preliminary ocean uptake 3.11 ± 0.36 GtC/yr)</li>
+        <li>Takahashi et al. 1993, Global Biogeochemical Cycles — surface-ocean pCO₂ rises 4.23% per °C of warming</li>
+        <li>Frankignoulle et al. 1994, Limnology and Oceanography 39, 458–462 — about 0.6 mol CO₂ released per mole of CaCO₃ precipitated (Ψ ≈ 0.6)</li>
+        <li>Müller et al. 2025, Nature Climate Change — record 2023 sea-surface temperatures cut non-polar ocean uptake by about 10%</li>
+        <li>Jiao et al. 2010, Nature Reviews Microbiology — the microbial carbon pump (RDOC storage)</li>
+        <li>Ridge &amp; McKinley 2020, Global Biogeochemical Cycles — advective controls on the North Atlantic anthropogenic carbon sink</li>
+      </ul>
+      <p class="caption">Data file: <code>data.json</code> in this folder, built by <code>scripts/fetch_data.py</code> from the Global Carbon Budget 2025 spreadsheet and Fay et al. 2024 Table 1. Re-run that script to refresh the data when a new Global Carbon Budget is published.</p>
+    </div>
+  </section>
+</main>
+<footer class="wrap"><p>Ocean Ledger · Built from public data, with sources credited in every caption. This page estimates; it does not measure uptake in real time.</p></footer>
+<script src="app.js"></script>
+</body>
+</html>
