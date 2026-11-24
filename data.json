@@ -1,0 +1,1170 @@
+{
+ "meta": {
+  "title": "Ocean Ledger \u2014 annual ocean CO2 uptake by basin",
+  "latest_year": 2024,
+  "first_year": 1959,
+  "units": "GtC/yr (1 GtC = 1 PgC = 3.664 GtCO2)",
+  "sources": {
+   "gcb": "Friedlingstein et al. 2025, Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3302, doi:10.18160/GCP-2025 (spreadsheet via ICOS Carbon Portal)",
+   "fay": "Fay et al. 2024, Earth Syst. Sci. Data 16, 2123-2139, doi:10.5194/essd-16-2123-2024, Table 1",
+   "goos": "Martin Miguez, Heslop et al. 2026, Frontiers in Marine Science 13:1737002, doi:10.3389/fmars.2026.1737002 (CC BY 4.0)",
+   "once": "Global Ocean Negative Carbon Emissions Program (Global ONCE) Science Plan, Chief Scientist Nianzhi Jiao"
+  },
+  "notes": [
+   "GCB ocean sink (SOCEAN) is the anthropogenic uptake: the average of 10 global ocean biogeochemistry models and 9 surface-ocean fCO2 data products, uncertainty +-0.4 GtC/yr.",
+   "Fay et al. basin fluxes are NET air-sea fluxes (they include the natural outgassing of river-borne carbon, ~0.65 GtC/yr in the GCB adjustment), as a climatological mean, not an annual series. No published annual basin-level series exists in one clean table.",
+   "Sign convention on this page: uptake is positive (carbon into the ocean). Fay et al. print the opposite sign; signs are flipped here."
+  ]
+ },
+ "world": [
+  {
+   "year": 1959,
+   "socean_gtc": 1.115,
+   "socean_gtco2": 4.09,
+   "efos_gtc": 2.417,
+   "eluc_gtc": 2.372,
+   "gatm_gtc": 2.039,
+   "sland_gtc": 0.453
+  },
+  {
+   "year": 1960,
+   "socean_gtc": 1.084,
+   "socean_gtco2": 3.97,
+   "efos_gtc": 2.562,
+   "eluc_gtc": 2.077,
+   "gatm_gtc": 1.508,
+   "sland_gtc": 0.734
+  },
+  {
+   "year": 1961,
+   "socean_gtc": 1.025,
+   "socean_gtco2": 3.76,
+   "efos_gtc": 2.57,
+   "eluc_gtc": 2.082,
+   "gatm_gtc": 1.657,
+   "sland_gtc": 0.682
+  },
+  {
+   "year": 1962,
+   "socean_gtc": 1.069,
+   "socean_gtco2": 3.92,
+   "efos_gtc": 2.66,
+   "eluc_gtc": 1.948,
+   "gatm_gtc": 1.189,
+   "sland_gtc": 1.133
+  },
+  {
+   "year": 1963,
+   "socean_gtc": 1.267,
+   "socean_gtco2": 4.64,
+   "efos_gtc": 2.802,
+   "eluc_gtc": 1.898,
+   "gatm_gtc": 1.211,
+   "sland_gtc": 0.773
+  },
+  {
+   "year": 1964,
+   "socean_gtc": 1.366,
+   "socean_gtco2": 5.01,
+   "efos_gtc": 2.954,
+   "eluc_gtc": 1.818,
+   "gatm_gtc": 1.041,
+   "sland_gtc": 0.986
+  },
+  {
+   "year": 1965,
+   "socean_gtc": 1.456,
+   "socean_gtco2": 5.33,
+   "efos_gtc": 3.087,
+   "eluc_gtc": 1.743,
+   "gatm_gtc": 2.336,
+   "sland_gtc": 0.35
+  },
+  {
+   "year": 1966,
+   "socean_gtc": 1.376,
+   "socean_gtco2": 5.04,
+   "efos_gtc": 3.238,
+   "eluc_gtc": 1.615,
+   "gatm_gtc": 2.336,
+   "sland_gtc": 1.13
+  },
+  {
+   "year": 1967,
+   "socean_gtc": 1.221,
+   "socean_gtco2": 4.47,
+   "efos_gtc": 3.34,
+   "eluc_gtc": 1.706,
+   "gatm_gtc": 1.296,
+   "sland_gtc": 1.336
+  },
+  {
+   "year": 1968,
+   "socean_gtc": 1.358,
+   "socean_gtco2": 4.97,
+   "efos_gtc": 3.522,
+   "eluc_gtc": 1.727,
+   "gatm_gtc": 2.103,
+   "sland_gtc": 1.602
+  },
+  {
+   "year": 1969,
+   "socean_gtc": 1.47,
+   "socean_gtco2": 5.39,
+   "efos_gtc": 3.756,
+   "eluc_gtc": 1.894,
+   "gatm_gtc": 2.804,
+   "sland_gtc": 0.587
+  },
+  {
+   "year": 1970,
+   "socean_gtc": 1.347,
+   "socean_gtco2": 4.94,
+   "efos_gtc": 4.066,
+   "eluc_gtc": 1.826,
+   "gatm_gtc": 2.4,
+   "sland_gtc": 0.731
+  },
+  {
+   "year": 1971,
+   "socean_gtc": 1.436,
+   "socean_gtco2": 5.26,
+   "efos_gtc": 4.231,
+   "eluc_gtc": 1.676,
+   "gatm_gtc": 1.551,
+   "sland_gtc": 1.652
+  },
+  {
+   "year": 1972,
+   "socean_gtc": 1.643,
+   "socean_gtco2": 6.02,
+   "efos_gtc": 4.428,
+   "eluc_gtc": 1.757,
+   "gatm_gtc": 3.122,
+   "sland_gtc": 0.808
+  },
+  {
+   "year": 1973,
+   "socean_gtc": 1.593,
+   "socean_gtco2": 5.84,
+   "efos_gtc": 4.661,
+   "eluc_gtc": 1.707,
+   "gatm_gtc": 3.101,
+   "sland_gtc": 1.144
+  },
+  {
+   "year": 1974,
+   "socean_gtc": 1.535,
+   "socean_gtco2": 5.62,
+   "efos_gtc": 4.639,
+   "eluc_gtc": 1.723,
+   "gatm_gtc": 1.444,
+   "sland_gtc": 2.945
+  },
+  {
+   "year": 1975,
+   "socean_gtc": 1.523,
+   "socean_gtco2": 5.58,
+   "efos_gtc": 4.637,
+   "eluc_gtc": 1.671,
+   "gatm_gtc": 2.613,
+   "sland_gtc": 2.095
+  },
+  {
+   "year": 1976,
+   "socean_gtc": 1.642,
+   "socean_gtco2": 6.02,
+   "efos_gtc": 4.875,
+   "eluc_gtc": 1.654,
+   "gatm_gtc": 2.06,
+   "sland_gtc": 2.166
+  },
+  {
+   "year": 1977,
+   "socean_gtc": 1.711,
+   "socean_gtco2": 6.27,
+   "efos_gtc": 5.01,
+   "eluc_gtc": 1.807,
+   "gatm_gtc": 4.078,
+   "sland_gtc": 1.145
+  },
+  {
+   "year": 1978,
+   "socean_gtc": 1.704,
+   "socean_gtco2": 6.24,
+   "efos_gtc": 5.192,
+   "eluc_gtc": 1.791,
+   "gatm_gtc": 2.74,
+   "sland_gtc": 2.112
+  },
+  {
+   "year": 1979,
+   "socean_gtc": 1.656,
+   "socean_gtco2": 6.07,
+   "efos_gtc": 5.324,
+   "eluc_gtc": 1.598,
+   "gatm_gtc": 4.545,
+   "sland_gtc": 1.084
+  },
+  {
+   "year": 1980,
+   "socean_gtc": 2.012,
+   "socean_gtco2": 7.37,
+   "efos_gtc": 5.297,
+   "eluc_gtc": 1.638,
+   "gatm_gtc": 3.568,
+   "sland_gtc": 0.248
+  },
+  {
+   "year": 1981,
+   "socean_gtc": 1.94,
+   "socean_gtco2": 7.11,
+   "efos_gtc": 5.153,
+   "eluc_gtc": 1.593,
+   "gatm_gtc": 2.443,
+   "sland_gtc": 1.614
+  },
+  {
+   "year": 1982,
+   "socean_gtc": 2.027,
+   "socean_gtco2": 7.43,
+   "efos_gtc": 5.112,
+   "eluc_gtc": 1.51,
+   "gatm_gtc": 2.103,
+   "sland_gtc": 1.327
+  },
+  {
+   "year": 1983,
+   "socean_gtc": 2.214,
+   "socean_gtco2": 8.11,
+   "efos_gtc": 5.159,
+   "eluc_gtc": 1.594,
+   "gatm_gtc": 3.908,
+   "sland_gtc": 0.208
+  },
+  {
+   "year": 1984,
+   "socean_gtc": 2.083,
+   "socean_gtco2": 7.63,
+   "efos_gtc": 5.31,
+   "eluc_gtc": 1.753,
+   "gatm_gtc": 2.613,
+   "sland_gtc": 1.883
+  },
+  {
+   "year": 1985,
+   "socean_gtc": 2.028,
+   "socean_gtco2": 7.43,
+   "efos_gtc": 5.498,
+   "eluc_gtc": 1.853,
+   "gatm_gtc": 3.505,
+   "sland_gtc": 2.04
+  },
+  {
+   "year": 1986,
+   "socean_gtc": 2.046,
+   "socean_gtco2": 7.5,
+   "efos_gtc": 5.578,
+   "eluc_gtc": 1.895,
+   "gatm_gtc": 2.166,
+   "sland_gtc": 1.953
+  },
+  {
+   "year": 1987,
+   "socean_gtc": 2.11,
+   "socean_gtco2": 7.73,
+   "efos_gtc": 5.76,
+   "eluc_gtc": 1.773,
+   "gatm_gtc": 5.629,
+   "sland_gtc": 0.609
+  },
+  {
+   "year": 1988,
+   "socean_gtc": 2.071,
+   "socean_gtco2": 7.59,
+   "efos_gtc": 5.982,
+   "eluc_gtc": 1.68,
+   "gatm_gtc": 4.609,
+   "sland_gtc": 1.36
+  },
+  {
+   "year": 1989,
+   "socean_gtc": 2.116,
+   "socean_gtco2": 7.75,
+   "efos_gtc": 6.059,
+   "eluc_gtc": 1.632,
+   "gatm_gtc": 3.101,
+   "sland_gtc": 2.686
+  },
+  {
+   "year": 1990,
+   "socean_gtc": 2.203,
+   "socean_gtco2": 8.07,
+   "efos_gtc": 6.204,
+   "eluc_gtc": 1.591,
+   "gatm_gtc": 2.591,
+   "sland_gtc": 1.848
+  },
+  {
+   "year": 1991,
+   "socean_gtc": 2.356,
+   "socean_gtco2": 8.63,
+   "efos_gtc": 6.333,
+   "eluc_gtc": 1.561,
+   "gatm_gtc": 1.593,
+   "sland_gtc": 1.762
+  },
+  {
+   "year": 1992,
+   "socean_gtc": 2.496,
+   "socean_gtco2": 9.14,
+   "efos_gtc": 6.146,
+   "eluc_gtc": 1.629,
+   "gatm_gtc": 1.529,
+   "sland_gtc": 1.683
+  },
+  {
+   "year": 1993,
+   "socean_gtc": 2.447,
+   "socean_gtco2": 8.97,
+   "efos_gtc": 6.209,
+   "eluc_gtc": 1.565,
+   "gatm_gtc": 2.613,
+   "sland_gtc": 2.234
+  },
+  {
+   "year": 1994,
+   "socean_gtc": 2.295,
+   "socean_gtco2": 8.41,
+   "efos_gtc": 6.27,
+   "eluc_gtc": 1.82,
+   "gatm_gtc": 3.526,
+   "sland_gtc": 1.244
+  },
+  {
+   "year": 1995,
+   "socean_gtc": 2.283,
+   "socean_gtco2": 8.36,
+   "efos_gtc": 6.418,
+   "eluc_gtc": 1.713,
+   "gatm_gtc": 4.248,
+   "sland_gtc": 1.497
+  },
+  {
+   "year": 1996,
+   "socean_gtc": 2.273,
+   "socean_gtco2": 8.33,
+   "efos_gtc": 6.614,
+   "eluc_gtc": 1.785,
+   "gatm_gtc": 2.23,
+   "sland_gtc": 2.502
+  },
+  {
+   "year": 1997,
+   "socean_gtc": 2.382,
+   "socean_gtco2": 8.73,
+   "efos_gtc": 6.654,
+   "eluc_gtc": 2.189,
+   "gatm_gtc": 4.184,
+   "sland_gtc": 2.546
+  },
+  {
+   "year": 1998,
+   "socean_gtc": 2.442,
+   "socean_gtco2": 8.95,
+   "efos_gtc": 6.631,
+   "eluc_gtc": 1.854,
+   "gatm_gtc": 6.032,
+   "sland_gtc": 1.386
+  },
+  {
+   "year": 1999,
+   "socean_gtc": 2.234,
+   "socean_gtco2": 8.19,
+   "efos_gtc": 6.779,
+   "eluc_gtc": 1.791,
+   "gatm_gtc": 2.846,
+   "sland_gtc": 2.84
+  },
+  {
+   "year": 2000,
+   "socean_gtc": 2.191,
+   "socean_gtco2": 8.03,
+   "efos_gtc": 6.963,
+   "eluc_gtc": 1.677,
+   "gatm_gtc": 2.655,
+   "sland_gtc": 2.72
+  },
+  {
+   "year": 2001,
+   "socean_gtc": 2.102,
+   "socean_gtco2": 7.7,
+   "efos_gtc": 7.012,
+   "eluc_gtc": 1.49,
+   "gatm_gtc": 3.929,
+   "sland_gtc": 2.015
+  },
+  {
+   "year": 2002,
+   "socean_gtc": 2.49,
+   "socean_gtco2": 9.12,
+   "efos_gtc": 7.168,
+   "eluc_gtc": 1.663,
+   "gatm_gtc": 5.013,
+   "sland_gtc": 1.083
+  },
+  {
+   "year": 2003,
+   "socean_gtc": 2.592,
+   "socean_gtco2": 9.5,
+   "efos_gtc": 7.547,
+   "eluc_gtc": 1.998,
+   "gatm_gtc": 4.864,
+   "sland_gtc": 1.988
+  },
+  {
+   "year": 2004,
+   "socean_gtc": 2.575,
+   "socean_gtco2": 9.43,
+   "efos_gtc": 7.808,
+   "eluc_gtc": 1.759,
+   "gatm_gtc": 3.313,
+   "sland_gtc": 2.517
+  },
+  {
+   "year": 2005,
+   "socean_gtc": 2.623,
+   "socean_gtco2": 9.61,
+   "efos_gtc": 8.078,
+   "eluc_gtc": 1.619,
+   "gatm_gtc": 5.246,
+   "sland_gtc": 1.586
+  },
+  {
+   "year": 2006,
+   "socean_gtc": 2.721,
+   "socean_gtco2": 9.97,
+   "efos_gtc": 8.35,
+   "eluc_gtc": 1.647,
+   "gatm_gtc": 3.781,
+   "sland_gtc": 2.538
+  },
+  {
+   "year": 2007,
+   "socean_gtc": 2.696,
+   "socean_gtco2": 9.88,
+   "efos_gtc": 8.597,
+   "eluc_gtc": 1.527,
+   "gatm_gtc": 4.524,
+   "sland_gtc": 2.352
+  },
+  {
+   "year": 2008,
+   "socean_gtc": 2.715,
+   "socean_gtco2": 9.95,
+   "efos_gtc": 8.747,
+   "eluc_gtc": 1.624,
+   "gatm_gtc": 3.759,
+   "sland_gtc": 2.616
+  },
+  {
+   "year": 2009,
+   "socean_gtc": 2.834,
+   "socean_gtco2": 10.38,
+   "efos_gtc": 8.601,
+   "eluc_gtc": 1.784,
+   "gatm_gtc": 3.356,
+   "sland_gtc": 2.377
+  },
+  {
+   "year": 2010,
+   "socean_gtc": 2.833,
+   "socean_gtco2": 10.38,
+   "efos_gtc": 9.093,
+   "eluc_gtc": 1.779,
+   "gatm_gtc": 5.013,
+   "sland_gtc": 2.677
+  },
+  {
+   "year": 2011,
+   "socean_gtc": 2.867,
+   "socean_gtco2": 10.51,
+   "efos_gtc": 9.41,
+   "eluc_gtc": 1.745,
+   "gatm_gtc": 3.696,
+   "sland_gtc": 3.293
+  },
+  {
+   "year": 2012,
+   "socean_gtc": 2.906,
+   "socean_gtco2": 10.65,
+   "efos_gtc": 9.54,
+   "eluc_gtc": 1.824,
+   "gatm_gtc": 5.119,
+   "sland_gtc": 1.846
+  },
+  {
+   "year": 2013,
+   "socean_gtc": 2.955,
+   "socean_gtco2": 10.83,
+   "efos_gtc": 9.628,
+   "eluc_gtc": 1.725,
+   "gatm_gtc": 5.204,
+   "sland_gtc": 2.715
+  },
+  {
+   "year": 2014,
+   "socean_gtc": 3.082,
+   "socean_gtco2": 11.29,
+   "efos_gtc": 9.68,
+   "eluc_gtc": 1.749,
+   "gatm_gtc": 4.312,
+   "sland_gtc": 3.039
+  },
+  {
+   "year": 2015,
+   "socean_gtc": 3.168,
+   "socean_gtco2": 11.61,
+   "efos_gtc": 9.663,
+   "eluc_gtc": 1.777,
+   "gatm_gtc": 6.266,
+   "sland_gtc": 1.775
+  },
+  {
+   "year": 2016,
+   "socean_gtc": 3.288,
+   "socean_gtco2": 12.05,
+   "efos_gtc": 9.66,
+   "eluc_gtc": 1.467,
+   "gatm_gtc": 6.032,
+   "sland_gtc": 1.984
+  },
+  {
+   "year": 2017,
+   "socean_gtc": 3.123,
+   "socean_gtco2": 11.44,
+   "efos_gtc": 9.818,
+   "eluc_gtc": 1.449,
+   "gatm_gtc": 4.545,
+   "sland_gtc": 2.85
+  },
+  {
+   "year": 2018,
+   "socean_gtc": 3.215,
+   "socean_gtco2": 11.78,
+   "efos_gtc": 10.026,
+   "eluc_gtc": 1.332,
+   "gatm_gtc": 5.076,
+   "sland_gtc": 2.878
+  },
+  {
+   "year": 2019,
+   "socean_gtc": 3.242,
+   "socean_gtco2": 11.88,
+   "efos_gtc": 10.122,
+   "eluc_gtc": 1.334,
+   "gatm_gtc": 5.31,
+   "sland_gtc": 2.384
+  },
+  {
+   "year": 2020,
+   "socean_gtc": 3.243,
+   "socean_gtco2": 11.88,
+   "efos_gtc": 9.596,
+   "eluc_gtc": 1.233,
+   "gatm_gtc": 4.949,
+   "sland_gtc": 2.101
+  },
+  {
+   "year": 2021,
+   "socean_gtc": 3.145,
+   "socean_gtco2": 11.52,
+   "efos_gtc": 10.062,
+   "eluc_gtc": 1.271,
+   "gatm_gtc": 5.034,
+   "sland_gtc": 2.596
+  },
+  {
+   "year": 2022,
+   "socean_gtc": 3.12,
+   "socean_gtco2": 11.43,
+   "efos_gtc": 10.242,
+   "eluc_gtc": 1.306,
+   "gatm_gtc": 4.864,
+   "sland_gtc": 3.106
+  },
+  {
+   "year": 2023,
+   "socean_gtc": 3.275,
+   "socean_gtco2": 12.0,
+   "efos_gtc": 10.397,
+   "eluc_gtc": 1.295,
+   "gatm_gtc": 5.735,
+   "sland_gtc": 2.017
+  },
+  {
+   "year": 2024,
+   "socean_gtc": 3.389,
+   "socean_gtco2": 12.42,
+   "efos_gtc": 10.535,
+   "eluc_gtc": 1.252,
+   "gatm_gtc": 7.923,
+   "sland_gtc": 1.942
+  }
+ ],
+ "summary": {
+  "latest_year": 2024,
+  "latest_socean_gtc": 3.389,
+  "latest_socean_gtco2": 12.42,
+  "prev_socean_gtc": 3.275,
+  "yoy_pct": 3.5,
+  "latest_total_emissions_gtc": 11.79,
+  "latest_ocean_share_of_emissions_pct": 28.8,
+  "mean_2015_2024_gtc": 3.22,
+  "cumulative_1959_latest_gtc": 146.0,
+  "cumulative_1959_latest_gtco2": 535.0,
+  "cumulative_emissions_1959_latest_gtc": 537.3,
+  "cumulative_ocean_share_pct": 27.2,
+  "decadal_means_gtc": {
+   "1960": 1.27,
+   "1970": 1.58,
+   "1980": 2.06,
+   "1990": 2.34,
+   "2000": 2.55,
+   "2010": 3.07
+  },
+  "preliminary_2025_gtc": 3.11,
+  "preliminary_2025_source": "Ciais et al. 2026, low-latency global carbon budget 2025, arXiv:2609.34226 (3.11 +- 0.36 GtC/yr; preliminary, not in the GCB series)"
+ },
+ "basins": {
+  "North Pacific": {
+   "biomes": [
+    {
+     "biome": "NP ice",
+     "uptake_pgC": 0.02,
+     "area_mkm2": 4.2,
+     "d_fco2_uatm": -24.6
+    },
+    {
+     "biome": "NP SPSS",
+     "uptake_pgC": 0.11,
+     "area_mkm2": 12.8,
+     "d_fco2_uatm": -11.5
+    },
+    {
+     "biome": "NP subtropics",
+     "uptake_pgC": 0.4,
+     "area_mkm2": 47.9,
+     "d_fco2_uatm": -8.2
+    }
+   ],
+   "area_mkm2": 64.9,
+   "uptake_pgC": 0.53,
+   "flux_density_gC_m2_yr": 8.2,
+   "share_of_printed_total_pct": 28.2
+  },
+  "Equatorial Pacific": {
+   "biomes": [
+    {
+     "biome": "Pacific equatorial",
+     "uptake_pgC": -0.35,
+     "area_mkm2": 26.4,
+     "d_fco2_uatm": 35.0
+    }
+   ],
+   "area_mkm2": 26.4,
+   "uptake_pgC": -0.35,
+   "flux_density_gC_m2_yr": -13.3,
+   "share_of_printed_total_pct": -18.6
+  },
+  "South Pacific": {
+   "biomes": [
+    {
+     "biome": "SP subtropics",
+     "uptake_pgC": 0.14,
+     "area_mkm2": 52.7,
+     "d_fco2_uatm": -2.3
+    }
+   ],
+   "area_mkm2": 52.7,
+   "uptake_pgC": 0.14,
+   "flux_density_gC_m2_yr": 2.7,
+   "share_of_printed_total_pct": 7.4
+  },
+  "North Atlantic": {
+   "biomes": [
+    {
+     "biome": "NA ice",
+     "uptake_pgC": 0.04,
+     "area_mkm2": 4.5,
+     "d_fco2_uatm": -19.3
+    },
+    {
+     "biome": "NA SPSS",
+     "uptake_pgC": 0.27,
+     "area_mkm2": 9.7,
+     "d_fco2_uatm": -36.2
+    },
+    {
+     "biome": "NA subtropics",
+     "uptake_pgC": 0.24,
+     "area_mkm2": 23.4,
+     "d_fco2_uatm": -10.0
+    }
+   ],
+   "area_mkm2": 37.6,
+   "uptake_pgC": 0.55,
+   "flux_density_gC_m2_yr": 14.6,
+   "share_of_printed_total_pct": 29.3
+  },
+  "Equatorial Atlantic": {
+   "biomes": [
+    {
+     "biome": "Atlantic equatorial",
+     "uptake_pgC": -0.04,
+     "area_mkm2": 7.4,
+     "d_fco2_uatm": 14.7
+    }
+   ],
+   "area_mkm2": 7.4,
+   "uptake_pgC": -0.04,
+   "flux_density_gC_m2_yr": -5.4,
+   "share_of_printed_total_pct": -2.1
+  },
+  "South Atlantic": {
+   "biomes": [
+    {
+     "biome": "SA subtropics",
+     "uptake_pgC": -0.01,
+     "area_mkm2": 18.1,
+     "d_fco2_uatm": 5.6
+    }
+   ],
+   "area_mkm2": 18.1,
+   "uptake_pgC": -0.01,
+   "flux_density_gC_m2_yr": -0.6,
+   "share_of_printed_total_pct": -0.5
+  },
+  "Indian Ocean": {
+   "biomes": [
+    {
+     "biome": "Indian subtropics",
+     "uptake_pgC": 0.18,
+     "area_mkm2": 35.9,
+     "d_fco2_uatm": -4.5
+    }
+   ],
+   "area_mkm2": 35.9,
+   "uptake_pgC": 0.18,
+   "flux_density_gC_m2_yr": 5.0,
+   "share_of_printed_total_pct": 9.6
+  },
+  "Southern Ocean": {
+   "biomes": [
+    {
+     "biome": "SO STSS",
+     "uptake_pgC": 0.59,
+     "area_mkm2": 29.6,
+     "d_fco2_uatm": -22.1
+    },
+    {
+     "biome": "SO SPSS",
+     "uptake_pgC": 0.21,
+     "area_mkm2": 30.7,
+     "d_fco2_uatm": -6.0
+    },
+    {
+     "biome": "SO ice",
+     "uptake_pgC": 0.08,
+     "area_mkm2": 18.7,
+     "d_fco2_uatm": -6.8
+    }
+   ],
+   "area_mkm2": 79.0,
+   "uptake_pgC": 0.88,
+   "flux_density_gC_m2_yr": 11.1,
+   "share_of_printed_total_pct": 46.8
+  }
+ },
+ "basin_detail": {
+  "North Atlantic": {
+   "drivers": "Cooling of warm Gulf Stream water as it flows north, plus strong winds, makes this the most intense sink per unit area. Spring phytoplankton blooms draw CO2 down further, and the water then sinks, carrying anthropogenic carbon into the deep ocean.",
+   "driver_source": "Fay et al. 2024; Ridge & McKinley 2020 (via Fay et al. 2024)",
+   "pumps": [
+    "SCP",
+    "BCP"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Sea surface salinity",
+    "Subsurface currents",
+    "Sea surface height",
+    "Sea state",
+    "Inorganic carbon",
+    "Oxygen",
+    "Nutrients",
+    "Ocean colour"
+   ]
+  },
+  "North Pacific": {
+   "drivers": "Subpolar cooling and spring blooms in the north; subtropical gyres where the seasonal cycle is set by temperature. The largest basin by area, but a modest sink per square metre.",
+   "driver_source": "Fay et al. 2024",
+   "pumps": [
+    "SCP",
+    "BCP"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Sea surface salinity",
+    "Sea state",
+    "Inorganic carbon",
+    "Ocean colour",
+    "Oxygen",
+    "Nutrients"
+   ]
+  },
+  "Equatorial Pacific": {
+   "drivers": "Upwelling brings cold, CO2-rich deep water to the surface, so this is the ocean's largest natural source. During El Ni\u00f1o the upwelling weakens and outgassing falls by roughly 0.1-0.2 PgC/yr.",
+   "driver_source": "Fay et al. 2024; M\u00fcller et al. 2025, Nat. Clim. Change",
+   "pumps": [
+    "Upwelling \u2014 source (overwhelms the pumps)"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Subsurface temperature",
+    "Surface currents",
+    "Sea surface height",
+    "Inorganic carbon"
+   ]
+  },
+  "South Pacific": {
+   "drivers": "A weak sink spread over the largest subtropical area. The southeast Pacific is the most data-sparse region in the SOCAT record, so this number carries the largest uncertainty.",
+   "driver_source": "Fay et al. 2024",
+   "pumps": [
+    "SCP"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Inorganic carbon",
+    "Ocean colour",
+    "Oxygen"
+   ]
+  },
+  "Equatorial Atlantic": {
+   "drivers": "A small source from equatorial upwelling.",
+   "driver_source": "Fay et al. 2024",
+   "pumps": [
+    "Upwelling \u2014 source (overwhelms the pumps)"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Surface currents",
+    "Inorganic carbon"
+   ]
+  },
+  "South Atlantic": {
+   "drivers": "Near-neutral in the Fay climatology -- a very small source, within uncertainty of zero.",
+   "driver_source": "Fay et al. 2024",
+   "pumps": [
+    "SCP (weak)"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Inorganic carbon",
+    "Ocean colour"
+   ]
+  },
+  "Indian Ocean": {
+   "drivers": "A subtropical sink, cut into each summer by monsoon-driven upwelling in the northwest Indian Ocean, which brings CO2-rich water up and vents it.",
+   "driver_source": "Fay et al. 2024",
+   "pumps": [
+    "SCP",
+    "BCP"
+   ],
+   "eovs": [
+    "Sea surface temperature",
+    "Sea state",
+    "Inorganic carbon",
+    "Oxygen"
+   ]
+  },
+  "Southern Ocean": {
+   "drivers": "The largest sink. Strong winds and cooling in the subtropical band hold the single biggest biome sink (-0.59 PgC/yr); summer biology and winter sea ice shape the subpolar and ice zones, where ice cover cuts gas exchange in winter.",
+   "driver_source": "Fay et al. 2024",
+   "pumps": [
+    "SCP",
+    "BCP"
+   ],
+   "eovs": [
+    "Sea ice",
+    "Sea surface temperature",
+    "Sea surface salinity",
+    "Subsurface temperature",
+    "Subsurface salinity",
+    "Inorganic carbon",
+    "Oxygen",
+    "Nutrients",
+    "Ocean colour",
+    "Stable carbon isotopes"
+   ]
+  }
+ },
+ "eovs": [
+  {
+   "name": "Turbulent diapycnal fluxes",
+   "category": "Physical",
+   "pilot": true,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Ocean surface heat flux",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Sea state",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Sea surface height",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Ocean surface stress",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Sea surface salinity",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Subsurface salinity",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Subsurface temperature",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Sea ice",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Sea surface temperature",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Surface currents",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Ocean bottom pressure",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Subsurface currents",
+   "category": "Physical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Oxygen",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Nutrients",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Inorganic carbon",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Stable carbon isotopes",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Dissolved organic carbon",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Transient tracers",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Particulate matter",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Nitrous oxide",
+   "category": "Biogeochemical",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Microbes \u2014 biomass & diversity",
+   "category": "Biology & Ecosystems",
+   "pilot": true,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Benthic invertebrates \u2014 abundance & distribution",
+   "category": "Biology & Ecosystems",
+   "pilot": true,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Seabirds \u2014 abundance & distribution",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Sea turtles \u2014 abundance & distribution",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Phytoplankton \u2014 biomass & diversity",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "Part of the Plankton ECV"
+  },
+  {
+   "name": "Fish \u2014 abundance & distribution",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Zooplankton \u2014 biomass & diversity",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "Part of the Plankton ECV"
+  },
+  {
+   "name": "Marine mammals \u2014 abundance & distribution",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Mangroves \u2014 cover & composition",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "Part of the Marine Habitats ECV"
+  },
+  {
+   "name": "Coral \u2014 cover & composition",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "Part of the Marine Habitats ECV"
+  },
+  {
+   "name": "Macroalgal canopy \u2014 cover & composition",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "Part of the Marine Habitats ECV"
+  },
+  {
+   "name": "Seagrass \u2014 cover & composition",
+   "category": "Biology & Ecosystems",
+   "pilot": false,
+   "ecv": "Part of the Marine Habitats ECV"
+  },
+  {
+   "name": "Ocean colour",
+   "category": "Cross-disciplinary",
+   "pilot": false,
+   "ecv": "ECV"
+  },
+  {
+   "name": "Ocean sound",
+   "category": "Cross-disciplinary",
+   "pilot": false,
+   "ecv": "\u2014"
+  },
+  {
+   "name": "Marine debris",
+   "category": "Cross-disciplinary",
+   "pilot": false,
+   "ecv": "\u2014"
+  }
+ ],
+ "pumps": [
+  {
+   "abbr": "SCP",
+   "name": "Solubility Carbon Pump",
+   "role": "Cold water dissolves more CO2 than warm water, so cooling surface water and strong winds pull CO2 from the air into the sea. This is the physical entry point for the sink: it sets the air-sea CO2 gradient the other pumps work with.",
+   "source": "Global ONCE Science Plan; Takahashi et al. 1993"
+  },
+  {
+   "abbr": "BCP",
+   "name": "Biological Carbon Pump",
+   "role": "Photosynthesis fixes CO2 into organic carbon; a fraction sinks as particles (POC) below the surface, where it is eaten, respired or buried. Plankton, zooplankton and fish repackage it on the way down.",
+   "source": "Global ONCE Science Plan"
+  },
+  {
+   "abbr": "MCP",
+   "name": "Microbial Carbon Pump",
+   "role": "Microbes transform dissolved organic carbon (DOC) that would otherwise be eaten within days into recalcitrant dissolved organic carbon (RDOC), which resists breakdown for centuries to millennia. It is the ocean's long-term dissolved store.",
+   "source": "Global ONCE Science Plan; Jiao et al. 2010, Nat. Rev. Microbiol."
+  },
+  {
+   "abbr": "CCP",
+   "name": "Carbonate Counter Pump",
+   "role": "Calcifiers (coccolithophores, corals, shellfish) build calcium carbonate shells. Each mole of CaCO3 precipitated releases about 0.6 mol of CO2 (Psi ~ 0.6), so calcification partly offsets the biological pump -- and the ratio rises as seawater loses buffer capacity.",
+   "source": "Global ONCE Science Plan; Frankignoulle et al. 1994"
+  },
+  {
+   "abbr": "BCMS",
+   "name": "Synergistic Coupling of Four Pumps",
+   "role": "The pumps do not act alone. Biological drawdown lowers surface pCO2 and primes the solubility pump; the microbial pump locks the biological pump's DOC into RDOC; the carbonate counter-pump offsets the biological pump. Warming weakens the solubility pump while the biological and microbial responses remain uncertain.",
+   "source": "Global ONCE Science Plan"
+  }
+ ],
+ "basin_reconciliation": {
+  "printed_biome_sum_pgC": 1.88,
+  "fay_global_net_pgC": -1.79,
+  "fay_global_uncertainty_pgC": 0.7,
+  "gap_pgC": 0.09,
+  "covered_area_mkm2": 322.0,
+  "note": "The 14 printed biome values sum to -1.88 PgC/yr against the paper's global -1.79 +- 0.7 PgC/yr. The 0.09 gap is rounding in the printed table (values given to 0.01) and coverage differences; it sits well inside the stated uncertainty. Basin shares on the page are shares of the printed-basin total so they sum to 100%."
+ }
+}
